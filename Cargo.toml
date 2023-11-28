@@ -1,0 +1,11 @@
+[package]
+name = "rat-at-4at"
+version = "0.1.0"
+edition = "2021"
+authors = ["Daniel Boll <danielboll.dev@proton.me>"]
+description = "A simple TUI using the ratatui crate to serve as a front-end to tsoding/4at"
+license = "MIT"
+
+[dependencies]
+crossterm = { version = "0.27.0" }
+ratatui = { version = "0.24.0", features = [] }
